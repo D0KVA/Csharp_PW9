@@ -1,0 +1,7 @@
+C:\Users\pk\source\repos\PW9\PW9\obj\Debug\netcoreapp3.1\PW9.csproj.AssemblyReference.cache
+C:\Users\pk\source\repos\PW9\PW9\obj\Debug\netcoreapp3.1\ExelWindow.g.cs
+C:\Users\pk\source\repos\PW9\PW9\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\pk\source\repos\PW9\PW9\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\pk\source\repos\PW9\PW9\obj\Debug\netcoreapp3.1\PW9_Content.g.cs
+C:\Users\pk\source\repos\PW9\PW9\obj\Debug\netcoreapp3.1\PW9_MarkupCompile.cache
+C:\Users\pk\source\repos\PW9\PW9\obj\Debug\netcoreapp3.1\PW9_MarkupCompile.lref

@@ -27,3 +27,9 @@ C:\Users\pk\source\repos\PW9\PW9\obj\Debug\net8.0-windows\ExelWindow.g.cs
 C:\Users\pk\source\repos\PW9\PW9\obj\Debug\net8.0-windows\ExelWindow.baml
 C:\Users\pk\source\repos\PW9\PW9\obj\Debug\net8.0-windows\PW9_Content.g.cs
 C:\Users\pk\source\repos\PW9\PW9\obj\Debug\net8.0-windows\App.baml
+C:\Users\pk\source\repos\PW9\PW9\bin\Debug\net8.0-windows\Spire.Barcode.dll
+C:\Users\pk\source\repos\PW9\PW9\bin\Debug\net8.0-windows\Spire.Doc.dll
+C:\Users\pk\source\repos\PW9\PW9\bin\Debug\net8.0-windows\Spire.Pdf.dll
+C:\Users\pk\source\repos\PW9\PW9\bin\Debug\net8.0-windows\Spire.Presentation.dll
+C:\Users\pk\source\repos\PW9\PW9\bin\Debug\net8.0-windows\Spire.XLS.dll
+C:\Users\pk\source\repos\PW9\PW9\obj\Debug\net8.0-windows\PW9.sourcelink.json

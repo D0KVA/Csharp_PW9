@@ -55,38 +55,7 @@
                 </Style>
             </Button.Style>
         </Button>
-        <Button BorderThickness="4" BorderBrush="#DF7CD6" Grid.Column="1"  Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Height="42" Width="180" Content="Delete Column" FontFamily="MV Boli" FontSize="18" Click="DeleteColumn_Click">
-            <Button.Foreground>
-                <SolidColorBrush Color="#CB42D3" />
-            </Button.Foreground>
-            <Button.Style>
-                <Style TargetType="Button">
-                    <Setter Property="RenderTransformOrigin" Value="0.5,0.5" />
-                    <Setter Property="Template">
-                        <Setter.Value>
-                            <ControlTemplate TargetType="Button">
-                                <Border Background="{TemplateBinding Background}"
-                    BorderBrush="{TemplateBinding BorderBrush}"
-                    BorderThickness="{TemplateBinding BorderThickness}"
-                    CornerRadius="20">
-                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
-                                </Border>
-                            </ControlTemplate>
-                        </Setter.Value>
-                    </Setter>
-                    <Setter Property="Background" Value="#f5abef" />
-                    <Style.Triggers>
-                        <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="RenderTransform">
-                                <Setter.Value>
-                                    <ScaleTransform ScaleX="1.1" ScaleY="1.1" />
-                                </Setter.Value>
-                            </Setter>
-                        </Trigger>
-                    </Style.Triggers>
-                </Style>
-            </Button.Style>
-        </Button>
+        
         <Button BorderThickness="4" BorderBrush="#DF7CD6" Grid.Column="2"  Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Height="42" Width="180" Content="Delete Row" FontFamily="MV Boli" FontSize="18" Click="DeleteRow_Click">
             <Button.Foreground>
                 <SolidColorBrush Color="#CB42D3" />
@@ -151,7 +120,7 @@
                 </Style>
             </Button.Style>
         </Button>
-        <Button BorderThickness="4" BorderBrush="#DF7CD6" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="5"  HorizontalAlignment="Center" VerticalAlignment="Center" Height="50" Width="780" Content="Email" FontFamily="MV Boli" FontSize="20" Click="Email_Click">
+        <Button BorderThickness="4" BorderBrush="#DF7CD6" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2"  HorizontalAlignment="Center" VerticalAlignment="Center" Height="42" Width="420" Content="Open file" FontFamily="MV Boli" FontSize="20" Click="Open_Click">
             <Button.Foreground>
                 <SolidColorBrush Color="#CB42D3" />
             </Button.Foreground>
@@ -183,7 +152,7 @@
                 </Style>
             </Button.Style>
         </Button>
-        <Button BorderThickness="4" BorderBrush="#DF7CD6" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="5"  HorizontalAlignment="Center" VerticalAlignment="Center" Height="50" Width="780" Content="Save File" FontFamily="MV Boli" FontSize="20" Click="Save_Click">
+        <Button BorderThickness="4" BorderBrush="#DF7CD6" Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="5"  HorizontalAlignment="Center" VerticalAlignment="Center" Height="42" Width="420" Content="Save File" FontFamily="MV Boli" FontSize="20" Click="Save_Click">
             <Button.Foreground>
                 <SolidColorBrush Color="#CB42D3" />
             </Button.Foreground>
@@ -215,9 +184,41 @@
                 </Style>
             </Button.Style>
         </Button>
-        <TextBlock Text="Название колонки:" Grid.Row="1" Grid.Column="5" VerticalAlignment="Top"/>
-        <TextBox x:Name="tbX" Grid.Row="1" Grid.Column="5" Background="#DF7CD6" VerticalAlignment="Bottom" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch"/>
-        <DataGrid Grid.Row="1" Grid.RowSpan="4" Grid.ColumnSpan="3" x:Name="dgR" IsReadOnly="False" AutoGenerateColumns="False" Background="MediumPurple"/>
+        <Button BorderThickness="4" BorderBrush="#DF7CD6" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="6"  HorizontalAlignment="Center" VerticalAlignment="Center" Height="42" Width="720" Content="Email" FontFamily="MV Boli" FontSize="18" Click="Button_Click">
+            <Button.Foreground>
+                <SolidColorBrush Color="#CB42D3" />
+            </Button.Foreground>
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="RenderTransformOrigin" Value="0.5,0.5" />
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border Background="{TemplateBinding Background}"
+            BorderBrush="{TemplateBinding BorderBrush}"
+            BorderThickness="{TemplateBinding BorderThickness}"
+            CornerRadius="20">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Setter Property="Background" Value="#f5abef" />
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="RenderTransform">
+                                <Setter.Value>
+                                    <ScaleTransform ScaleX="1.1" ScaleY="1.1" />
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+        <TextBlock Text="Name column:" Grid.Row="0" Grid.Column="1" VerticalAlignment="Top" FontFamily="MV Boli" Foreground="#FFCB42D3" FontSize="16"/>
+        <TextBox x:Name="tbX" Grid.Row="0" Grid.Column="1" Background="#DF7CD6" VerticalAlignment="Bottom" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch"/>
+        <DataGrid Grid.Row="1" Grid.RowSpan="4" Grid.ColumnSpan="4" Name="dgR" Background="White" IsReadOnly="False"/>
         
     </Grid>
 </Window>
